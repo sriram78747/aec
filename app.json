@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "my-college-app",
+    "name": "AEC",
     "slug": "my-college-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "mycollegeapp",
+    "scheme": "aec",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
