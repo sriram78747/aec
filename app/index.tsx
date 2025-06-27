@@ -38,6 +38,7 @@ export default function IndexScreen() {
     try {
       const response = await fetch("https://studentmaster-backend.onrender.com/student-data", {
         method: "POST",
+        credentials: 'include',
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ roll, password }),
       });
