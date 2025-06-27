@@ -7,8 +7,7 @@ export default function LoginScreen() {
   const [password, setPassword] = useState('');
   const router = useRouter();
   let loggingIn = false;
-  roll = '23A91A6119';
-  password = 'Sriram@78747';
+
   const handleLogin = async () => {
     if (!roll || !password) {
       return Alert.alert('Error', 'Please enter both roll number and password');
